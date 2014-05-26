@@ -151,9 +151,9 @@ opacity:1;
 #newreleasename{
 	width:216px;
 	height:15px;
-	top: auto;
+	margin:0 auto;
 	float:center;
-	bottom:auto;
+	
 	font-size:11px;
 	font-weight: 900;
 	font-family: 'Source Sans Pro', arial;

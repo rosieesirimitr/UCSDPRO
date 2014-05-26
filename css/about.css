@@ -12,8 +12,13 @@ body{
   -o-background-size: cover;
   background-size: cover; **/
   background-color: white;
+  color:#000;
 }
 
+p {
+	color:#000;
+	text-align:justify;
+}
 
 #nav-header{
 height:50px;
@@ -63,6 +68,7 @@ margin-top:3%;
 margin-bottom:;
 left:auto;
 right:auto;
+padding-bottom:200px;
 
 
 }
@@ -85,112 +91,71 @@ text-shadow:4px 4px #2C85DE;
 
 /**Main Content**/
 
-#main-content{
-width:1100px;
-height:1100px;
-
-margin-right:4%;
-
-margin-top:24px;
-margin-bottom:10%;
-
-opacity:1;
-
+h3 {
+	text-align: left;
+	color:#000;
 }
 
-#main-content img{
--webkit-filter:grayscale(60%);
--webkit-transition: all 3s ease;
-     -moz-transition: all 5s ease;
-       -o-transition: all 5s ease;
-      -ms-transition: all 5s ease;
-          transition: all 5s ease;
+.h3-fm {
+	padding-left:40px;
 }
 
-#main-content img:hover{
--webkit-filter:brightness(100%);
+h4 {
+	text-align: left;
+	color: #000;
+	padding-left:40px;
 }
 
-#rosterfirst{
-	width:240px;
-	height:210px;
-	top:auto;
-	right:auto;
-	left:auto;
-	bottom:auto;
-	margin-top:100px;
-	margin-left:8.2%;
-	display:block;
+.missionstatement-img {
+	width:300px;
+	padding-top:40px;
 	float:left;
-	z-index: 4;
-	
+	vertical-align:middle;
 }
 
-#rosterimage{
-	width:270px;
-	height:170px;
-	top:auto;
-	right:auto;
-	bottom:auto;
-	left:auto;
-	margin-top:0;
-	margin-right:0;
-	margin-left:0;
-	margin-bottom:24px;
-	display:block;
-	z-index: 10;
-	
-}
-
-#bordershadow{
-	-webkit-box-shadow: 6px 6px 0px 0px #2C85DE;
-            box-shadow: 6px 6px 0px 0px #2C85DE;
-	
-}
-
-#newreleasename{
-	width:216px;
-	height:15px;
-	top: auto;
-	float:center;
-	bottom:auto;
-	font-size:11px;
-	font-weight: 900;
-	font-family: 'Source Sans Pro', arial;
+.missionstatement {
+	margin-left:400px;
 }
 
 
+.about-cont {
+	width:1100px;
+}
 
+.ms-bg {
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:30px;
+	padding-top:30px;
+	background-color:#eee;
+	margin-bottom:20px;
+}
 
-#rostersecond{
-	width:240px;
-	height:210px;
-	top:auto;
-	right:auto;
-	left:auto;
-	bottom:auto;
-	margin-top:100px;
-	margin-right:100px;
-	margin-left: 100px;
-	display:block;
+.fm-bg {
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:30px;
+	padding-top:30px;
+	background-color:#eee;
+}
+
+.foundingmember1 {
+	padding-top:20px;
 	float:left;
-	
-	z-index: 5;
+	width:500px;
 }
 
-#rosterthird{
-	width:240px;
-	height:210px;
-	top:auto;
-	right:auto;
-	left:auto;
-	bottom:auto;
-	margin-top:100px;
-	display:block;
-	float:left;
-	z-index: 6;
+.foundingmember2 {
+	padding-top:20px;
+	margin-left:550px;
 }
 
+.fm-content {
+	padding-left:40px;
+	padding-right:40px;
+}
+
+/* end content */
 
 .md-close{
 	background: #B0ACAD;
@@ -200,7 +165,7 @@ opacity:1;
 	height:60px;
 	width:40%;
 	color:black;
-	margin-top:17%;
+	margin-top:7%;
 
 }
 

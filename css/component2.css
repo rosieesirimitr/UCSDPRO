@@ -25,12 +25,16 @@ perspective effects (not including the modals and the overlay).
 
 .md-modal {
 	position: fixed;
-	top: 50%;
+	top: 35%;
 	left: 50%;
 	width: 50%;
-	max-width: 630px;
-	min-width: 320px;
-	height: auto;
+	height: 55%;
+	max-width: 800px;
+	min-width: 500px;
+
+
+
+	
 	z-index: 2000;
 	visibility: hidden;
 	-webkit-backface-visibility: hidden;
@@ -73,13 +77,25 @@ perspective effects (not including the modals and the overlay).
 	position: relative;
 	border-radius: 3px;
 	margin: 0 auto;
+	height:640px;
 }
+
 #first{
-height:350px;
-width:250px;
-float:center;
-margin-left:30%;
+height:500px;
+width:400px;
+float:left;
 }
+
+#text-caption{
+	text-align: right;
+}
+
+#release-caption{
+text-align:right;
+}
+
+
+
 .md-content h3 {
 	margin: 0;
 	padding: 0.4em;
@@ -110,10 +126,10 @@ margin-left:30%;
 	padding: 0 0 30px 20px;
 }
 
-.md-content > div ul li {
+/**.md-content > div ul li {
 	padding: 5px 0;
 	color:black;
-}
+}**/
 
 .md-content button {
 	display: block;
